@@ -5,3 +5,8 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+Place.create! ([
+    {"name": "buckingham Palace", "latitude": "51.501564", "longitude": "-0.141944"},
+    {"name": "Westminister Abbey", "latitude": "51.499581", "longitude": "-0.127309"}
+])
